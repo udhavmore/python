@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient(to top right, #65efc9,#6cdbeb);
+    min-height: 97vh;
+    max-height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    text-align: center;    
+}
+
+h1 {    
+    color: #65efc9;
+}
+
+.btn-logout{
+    margin-left: 200px;    
+}
+
+h1, .btn-logout {
+    display: inline-block;
+}
+
+th{
+    border: 2px solid black;        
+    min-width: 100px;
+    max-width: 100px;
+}
+td{
+    border: 0.5px solid black;        
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.divHeader{    
+    display: flex;        
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+
+.divData{
+    min-height: 300px;
+    max-height: 300px;        
+    display: flex;
+    justify-content: center;    
+    text-align: center;
+    overflow: auto;
+    
+}
+
+.content{
+    background: white;
+    min-height: 90vh;
+    max-height: 90vh;
+    width: 1200px;
+    background: linear-gradient(
+        to right bottom, 
+      rgba(255,255,255,0.7),
+      rgba(255,255,255,0.3));
+    border-radius: 2rem;    
+}
+
+.form{
+    margin: 5px;
+}
+
+input{
+    margin: 6px;    
+    width: 200px;
+    border-radius: 2rem;
+}
+
+.button{    
+    width: 100px;
+    color: whites;
+    border-radius: 2rem;
+}
+
+.divHead{
+    background-color: navy;
+    min-height: 10vh;
+    max-height: 10vh;
+    width: 1200px;
+    background: linear-gradient(
+        to right bottom,
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.7));        
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}

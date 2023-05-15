@@ -1,0 +1,105 @@
+body {
+    background: linear-gradient(to top right, #65efc9,#6cdbeb);
+    min-height: 97vh;
+    max-height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.divmain{
+    background: white;
+    min-height: 90vh;
+    max-height: 90vh;
+    width: 1200px;
+    background: linear-gradient(
+        to right bottom,
+      rgba(255,255,255,0.7),
+      rgba(255,255,255,0.3));
+    border-radius: 2rem;  
+}
+
+.divHead{    
+    min-height: 40px;
+    max-height: 40px;
+    width: 900px;
+    background:rgba(255,255,255,0.5);
+    border-radius: 2rem;
+    margin-top: 25px;
+    margin-left: 155px;
+    display: flex;
+}
+
+.divapps{    
+    background: white;
+    margin-top: 25px;
+    margin-left: 200px;
+    min-height: 40px;
+    max-height: 40px;
+    width: 800px;
+    background: linear-gradient(
+        to right bottom,
+      rgba(255,255,255,0.7),
+      rgba(255,255,255,0.5));
+    border-radius: 2rem;
+    display: flex;
+    overflow: hidden;
+}
+
+
+.buttons{
+    background: none;    
+    min-height: 40px;
+    max-height: 40px;
+    width: 197px;
+    border: none;
+}
+
+.buttons:hover{
+    background: rgba(255,255,255,0.5);
+}
+
+.btnAddEntry:hover{    
+    border-right: 0.5px solid grey;
+}
+
+.btnCal:hover {
+    border-right: 0.5px solid grey;
+    border-left: 0.5px solid grey;
+}
+
+.btnReports:hover{
+    border-right: 0.5px solid grey;
+    border-left: 0.5px solid grey;
+}
+
+.btnAssignedTasks:hover{
+    border-left: 0.5px solid grey;
+}
+
+.btnLogout{    
+    float: right;    
+}
+
+.btnLogout:hover{
+    border: 0.1px solid grey;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.divDate{    
+    padding-top: 10px;
+    width:300px;
+    overflow: hidden;    
+}
+
+.divUname{    
+    padding-top: 10px;
+    width:300;
+}
+
+.divLogout{    
+    overflow: hidden;
+    width:300px
+}

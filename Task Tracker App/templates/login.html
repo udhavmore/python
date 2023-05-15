@@ -1,0 +1,29 @@
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+    <title>Task Tracker Login</title>
+</head>
+    <body>        
+        <div class="main">
+            <div class="placeholder">
+                <img src="{{ url_for('static', filename='imgs/task.png') }}" alt="icon" width="50px" height="50px">
+                <h1>Task Tracker</h1>
+                <form action="", method="POST">
+                    <input type="text" name="username" placeholder="Username">
+                    <br>
+                    <input type="password" name="password" placeholder="Password">
+                    <br>
+                    <input class='LoginButton' type="submit" name='Login' value="Login">
+                </form>
+                {% if error %}
+                    <p class='error'>
+                        <strong>Error: </strong>{{error}}
+                    </p>
+                {% endif %}
+            </div>
+        </div>
+    </body>
+
+
+
+</html>

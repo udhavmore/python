@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(to top right, #65efc9,#6cdbeb);
+    min-height: 97vh;
+    max-height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    text-align: center;
+}
+
+.main{
+    background: white;  
+    min-height: 50vh;
+    max-height: 50vh;
+    width: 500px;
+    background: linear-gradient(
+        to right bottom, 
+      rgba(255,255,255,0.6),
+      rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+
+h1{
+ color:azure;   
+ font-size: 25px;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #6cdbeb;
+    outline: none !important;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    height: 25px;
+    width: 200px;    
+    text-align: center;
+}
+
+.LoginButton{    
+    background: linear-gradient(to top right,#6cdbeb,#65efc9);
+    height: 23px;
+    width: 100px;
+    border-radius: 20px;
+}

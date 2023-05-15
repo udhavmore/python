@@ -1,0 +1,27 @@
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <title>Welcome to Task Tracker</title>
+</head>
+    <body>        
+        <div class="divmain">
+            <div class="divHead">                
+                <div class="divDate">08-04-2021 Tuesday</div>
+                <div class="divUname"><strong>Udhav More</strong></div>                                               
+                <div class="divLogout">
+                    <form action="/logout" method="POST" class="frmLogout">
+                        <input type="submit" value="Logout" class="btnLogout buttons"></input>
+                    </form>
+                </div>
+            </div>
+            <div class="divapps">
+                <form class="frmBtns" action="/toggleAction" method="POST">
+                    <input type="submit" class="btnAddEntry buttons" name='btn_apps' value='Add Entry'></input>
+                    <input type="submit" class="btnCal buttons" name='btn_apps' value="Calender"></input>
+                    <input type="submit" class="btnReports buttons" name='btn_apps' value="Reports"></input>
+                    <input type="submit" class="btnAssignedTasks buttons" name='btn_apps' value="Assigned Tasks"></input>
+                </form>                
+            </div>          
+        </div>
+    </body>
+</html>
