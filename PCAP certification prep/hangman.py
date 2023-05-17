@@ -25,16 +25,16 @@ for i in range(len(word)):
             print("You Dead Bro!!")
 
 
-# words = ["black", "white", "blue"]
-# result_list = []
-# word = random.choice(words)
-# print(word)
-# user_char = input("Guess the word:")
-# for i in range(len(word)):
-#     if user_char == word[i]:
-#         print(f"Found: {user_char}")
-#         result_list.append(True)
-#     else:
-#         result_list.append(False)
+words = ["black", "white", "blue"]
+result_list = []
+word = random.choice(words)
+print(word)
+user_char = input("Guess the word:")
+for i in range(len(word)):
+    if user_char == word[i]:
+        print(f"Found: {user_char}")
+        result_list.append(True)
+    else:
+        result_list.append(False)
 
-# print(result_list)
+print(result_list)
